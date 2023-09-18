@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>テトリス</title>
+	<style type="text/css">
+	<!--
+	#score, #level, #Enter, #t1{ color:blue; }
+	tr { text-align:right }
+	-->
+</style>
+</head>
+<body>
+	<div style="float:left; margin:20px">
+		<canvas id="Canvas"></canvas>
+	</div>
+	<div style="float:left;">
+		<h1>Tetris</h1>
+		<h1 id="name"></h1>
+		<h2>GAME START／REPLAY：<span id="Enter">[Enter]キー</span></h2>
+		<h2>level：<span id="level">0</span></h2>
+		<h2>score：<span id="score">0</span></h2>
+		<h2>High score：<br>
+		<table>
+			<tr><td id="t1"></td><td> </td><td id="t2"></td></tr>
+		</table>
+		</h2>
+	</div>
+	<script src="tetris.js"></script>
+</body>
+</html>
